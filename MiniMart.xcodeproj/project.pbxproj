@@ -342,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5D6816226CB5AF20070D805 /* ProductListPageView.swift in Sources */,
 				11FD9CA62692B3A700BBCD33 /* UserDefaults+Codable.swift in Sources */,
 				1152031526A66A7500555FBE /* ContentView.swift in Sources */,
 				1113F95C26CA703500855F37 /* ProductDetailPageView.swift in Sources */,
@@ -351,6 +352,7 @@
 				1113F95026CA63DB00855F37 /* Network.swift in Sources */,
 				11FD9CB72692C4BE00BBCD33 /* RemoteImage.swift in Sources */,
 				11A47030269404B000E9C8AD /* ProcessInfo+Extension.swift in Sources */,
+				E53C93BC26CB547E00E915D5 /* API.swift in Sources */,
 				11FD9C632692A79600BBCD33 /* MiniMartApp.swift in Sources */,
 				E51FB1A026CB9EA400D1A7E0 /* CartButton.swift in Sources */,
 				E51FB1A426CBA14A00D1A7E0 /* CartItem.swift in Sources */,

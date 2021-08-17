@@ -1,5 +1,13 @@
 # 商品詳細画面を完成させる
 
+chapter5が終わってない人は、いったん出来たところまでコミットしてください。
+
+その後
+```
+git checkout ch7-initial
+```
+とすると、このchapterが開始できるところまでコードが進みます。
+
 以下の仕様を満たす、商品詳細画面を完成させてください。
 画面例を示しますが、そのとおりにする必要はありません。
 
@@ -25,6 +33,7 @@
   - 文字色は`.foregroundColor` modifierで変えることができます
   - Viewの角は`.cornerRadius` modifierで丸くすることができます
 - 要素が画面内に収まらない場合、[ScrollView](https://developer.apple.com/documentation/swiftui/scrollview)を使うと良いでしょう
+- 画面例ではナビゲーションバーが小さくなっています。ナビゲーションバーはタイトルを大きく表示するのか小さく表示するのかの２モードがあり、`.navigationBarTitleDisplayMode`でスタイルを調整できます。
 
 ## カートの状態をアプリ全体で共有する
 

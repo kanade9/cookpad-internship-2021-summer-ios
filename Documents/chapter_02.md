@@ -6,6 +6,7 @@ Xcodeでのビルドが動いたところで、次にMiniMartの開発に必要�
 
 - Swift Package Managerというツールを使って`apollo-ios`を導入
 - 必要なファイルを生成するために、npmモジュール`apollo-tooling`の導入
+- Network.swiftをXcodeに追加する
 
 を、行います。
 
@@ -133,7 +134,7 @@ query fetchProducts {
 
 `DataSources`以下に`Network.swift`を新規に作成し、以下の内容をコピーしてください。
 その際、以下の内容を伝えられる内容に合わせて修正してください。
-- `[API Endpoint]`は、APIサーバのhostに置換してください。
+- `[API Endpoint]`は、APIエンドポイントのURLに置換してください。
 - `[Your id]`には、ログインユーザー名を指定してください。
 前日のwebの講義で利用したものを使っても良いし、変えても問題ありません。
 - `[AuthKey]`と`AuthValue`には当日伝えられる認証情報を埋めてください。
